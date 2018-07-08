@@ -1,0 +1,40 @@
+171101 015215.126|CONFIG|Thread-5|setFileHandlers|Now logging to D:\桌面\程式設計C\pc2-9.4.1-20171005T025615Z-001\pc2-9.4.1\bin\logs directory.
+171101 015215.126|INFO|Thread-5|info|
+171101 015215.126|INFO|Thread-5|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 1.8.0_144 build 3850 Windows 10 10.0 (amd64) 
+171101 015215.126|INFO|Thread-5|info|Login: team45 (aka team45)
+171101 015215.126|INFO|Thread-5|startLog|Working directory is D:\桌面\程式設計C\pc2-9.4.1-20171005T025615Z-001\pc2-9.4.1\bin
+171101 015215.127|INFO|Thread-5|startLog|Process id is 12092@LAPTOP-F0C4MNFQ
+171101 015215.127|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+171101 015215.132|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+171101 015215.267|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+171101 015215.267|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #914 SERVER0 @ site 1 -> TEAM45 @ site 1
+171101 015215.268|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #914 SERVER0 @ site 1 -> TEAM45 @ site 1
+171101 015239.634|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for 6.3 GNU C file: D:\桌面\程式設計C\7\handsome.c
+171101 015239.636|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM45 @ site 1 -> SERVER0 @ site 1
+171101 015239.637|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM45 @ site 1 -> SERVER0 @ site 1
+171101 015240.110|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #916 SERVER0 @ site 1 -> TEAM45 @ site 1
+171101 015240.110|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #916 ) recieveObject
+171101 015240.110|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (DESKTOP-REGVLH9 @ 140.123.104.102) (Contest Id: Default--5731458273931213533)
+171101 015240.110|INFO|Thread-8|dumpPacket|    To: TEAM45 @ site 1
+171101 015240.111|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5003 QUEUED_FOR_COMPUTER_JUDGEMENT 40676 min 2440586263ms from TEAM45 @ site 1 id Run-900926279781742830 problem 6.3--9046551996174069201 lang GNU C-8640126444754918668
+171101 015240.111|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #916 SERVER0 @ site 1 -> TEAM45 @ site 1
+171101 015240.111|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #916 ) handlePacket
+171101 015240.111|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (DESKTOP-REGVLH9 @ 140.123.104.102) (Contest Id: Default--5731458273931213533)
+171101 015240.111|INFO|Thread-8|dumpPacket|    To: TEAM45 @ site 1
+171101 015240.112|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5003 QUEUED_FOR_COMPUTER_JUDGEMENT 40676 min 2440586263ms from TEAM45 @ site 1 id Run-900926279781742830 problem 6.3--9046551996174069201 lang GNU C-8640126444754918668
+171101 015242.250|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #921 SERVER0 @ site 1 -> TEAM45 @ site 1
+171101 015242.250|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #921 ) recieveObject
+171101 015242.251|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (DESKTOP-REGVLH9 @ 140.123.104.102) (Contest Id: Default--5731458273931213533)
+171101 015242.251|INFO|Thread-9|dumpPacket|    To: TEAM45 @ site 1
+171101 015242.251|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE3 @ site 1 judgement No - Wrong Answer--1267216194998032683 id JudgementRecord--7646914937773251234
+171101 015242.251|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+171101 015242.251|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5003 JUDGED 40676 min 2440586263ms from TEAM45 @ site 1 id Run-900926279781742830 problem 6.3--9046551996174069201 lang GNU C-8640126444754918668
+171101 015242.251|INFO|Thread-9|info|handlePacket start Packet[RUN_JUDGEMENT] #921 SERVER0 @ site 1 -> TEAM45 @ site 1
+171101 015242.252|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #921 ) handlePacket
+171101 015242.252|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (DESKTOP-REGVLH9 @ 140.123.104.102) (Contest Id: Default--5731458273931213533)
+171101 015242.252|INFO|Thread-9|dumpPacket|    To: TEAM45 @ site 1
+171101 015242.252|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE3 @ site 1 judgement No - Wrong Answer--1267216194998032683 id JudgementRecord--7646914937773251234
+171101 015242.252|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+171101 015242.252|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5003 JUDGED 40676 min 2440586263ms from TEAM45 @ site 1 id Run-900926279781742830 problem 6.3--9046551996174069201 lang GNU C-8640126444754918668
+171101 015247.224|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #921 SERVER0 @ site 1 -> TEAM45 @ site 1
+171101 015248.180|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #916 SERVER0 @ site 1 -> TEAM45 @ site 1

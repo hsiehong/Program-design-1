@@ -1,0 +1,20 @@
+171212 201317.907|CONFIG|main|setFileHandlers|Now logging to D:\桌面\程式設計C\week0\pc2-9.4.1-20171005T025615Z-001\pc2-9.4.1\bin\logs directory.
+171212 201317.909|INFO|main|info|
+171212 201317.910|INFO|main|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 1.8.0_144 build 3850 Windows 10 10.0 (amd64) 
+171212 201317.922|INFO|main|startLog|Working directory is D:\桌面\程式設計C\week0\pc2-9.4.1-20171005T025615Z-001\pc2-9.4.1\bin
+171212 201317.935|INFO|main|startLog|Process id is 4372@LAPTOP-F0C4MNFQ
+171212 201317.935|INFO|main|start|Starting ConnectionManager...
+171212 201318.404|INFO|main|start|Started ConnectionManager
+171212 201318.404|INFO|main|setClientServerAndPort|INIFile File location: file:/D:/桌面/程式設計C/week0/pc2-9.4.1-20171005T025615Z-001/pc2-9.4.1/bin/pc2v9.ini
+171212 201318.417|INFO|main|setClientServerAndPort|setClientServerAndPort 140.123.104.102 parsed as 140.123.104.102 port 50002
+171212 201318.418|INFO|main|info|Contacting server at 140.123.104.102:50002
+171212 201318.418|INFO|main|connectToMyServer|Connecting to 140.123.104.102:50002
+171212 201318.436|INFO|main|<init>|IO Exception:140.123.104.102
+171212 201318.439|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+171212 201318.440|INFO|main|start|Exception contacting my server 
+|edu.csus.ecs.pc2.core.transport.TransportException: Network is unreachable: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2664)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+171212 201318.440|INFO|main|info|Unable to contact server at 140.123.104.102:0 Network is unreachable: connect
